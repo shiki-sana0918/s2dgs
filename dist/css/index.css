@@ -1,0 +1,94 @@
+/*!********************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/sass/index.scss ***!
+  \********************************************************************************************************************************************************/
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  max-width: 1000px;
+  min-width: 960px;
+  margin: 0 auto 0 auto;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+}
+body header #nav-pc a {
+  text-decoration: none;
+  text-align: right;
+  font-size: 14px;
+  padding-top: 15px;
+  margin-left: 20px;
+}
+body header #nav-pc a:link {
+  color: #0d0d0d;
+}
+body header #nav-pc a:visited {
+  color: #0d0d0d;
+}
+body header #nav-pc a:hover {
+  color: #ee0808;
+  text-decoration: underline;
+}
+body header #nav-pc a:active {
+  color: #0d0d0d;
+}
+body #main-visual {
+  position: relative;
+  height: 200px;
+}
+body #main-visual img {
+  max-width: 620px;
+  border-radius: 20%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+body #main-visual #main-message {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #2710d5;
+  color: #ffffff;
+  border-radius: 0 0 476px 0;
+  max-width: 820px;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+body #main-visual #main-message h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 50px 0 0 50px;
+}
+body #main-visual #main-message p {
+  font-size: 28px;
+  margin: 0 0 0 50px;
+}
+body h2 {
+  margin: 40px 0 0 0;
+}
+body h3 {
+  font-size: 27px;
+}
+body #mission {
+  margin: 250px auto 80px auto;
+  width: 100%;
+}
+body #mission #mission-flex {
+  width: 100%;
+  display: flex;
+}
+body #mission #mission-flex #div {
+  width: 50%;
+  margin: 20px;
+}
+body #mission #mission-flex #mission-photo {
+  width: 80%;
+  height: 64%;
+}
+body #mission #mission-flex #s2dgs {
+  width: 100%;
+}
+body p {
+  font-size: 14px;
+}
